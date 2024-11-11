@@ -92,9 +92,6 @@ College-Quest/
 
 Feel free to fork the repository and submit pull requests if you would like to contribute to the project. All contributions are welcome!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
 
 ## Acknowledgments
 
