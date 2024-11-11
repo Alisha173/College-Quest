@@ -1,0 +1,665 @@
+Serial No.,College Name,Department,Location
+1,BITS Pilani (Pilani Campus),"Department of Management, BITS","Pilani, Rajasthan"
+1,BITS Pilani (Pilani Campus),BITS Law School,"Mumbai, Maharashtra"
+2,Institute of Chemical Technology - [ICT],No data found,No data found
+3,Vellore Institute of Technology - [VIT University],VIT Business School - [VITBS],"Vellore, Tamil Nadu"
+4,Thapar Institute of Engineering and Technology - [Thapar University],"LM Thapar School of Management, Derabassi","Chandigarh, Chandigarh"
+4,Thapar Institute of Engineering and Technology - [Thapar University],Thapar School of Liberal Arts & Sciences - [TSLAS],"Patiala, Punjab"
+5,Indian Institute of Space Science and Technology - [IIST],No data found,No data found
+6,Birla Institute of Technology - [BIT Mesra],No data found,No data found
+7,Amity University,Amity Institute of English and Business Communication - [AIEBC],"Noida, Uttar Pradesh"
+7,Amity University,Amity Institute of Psychology and Allied Sciences - [AIPS],"Noida, Uttar Pradesh"
+7,Amity University,Amity School of Performing Arts - [ASPA],"Noida, Uttar Pradesh"
+7,Amity University,"RICS School of Built Environment, Amity University - [RICS SBE]","Noida, Uttar Pradesh"
+8,SRM Engineering College,No data found,No data found
+9,SSN College of Engineering - [SSNCE],No data found,No data found
+10,SASTRA University,"Sastra University, School of Management","Thanjavur, Tamil Nadu"
+10,SASTRA University,"Sastra University, School of Law","Thanjavur, Tamil Nadu"
+11,Manipal Institute of Technology - [MIT],No data found,No data found
+12,P.S.G College of Technology - [PSGCT],No data found,No data found
+13,Sathyabama Institute of Science and Technology,No data found,No data found
+14,Kalinga Institute of Industrial Technology - [KIIT],KIIT School of Fashion Technology - [KSOFT],"Bhubaneswar, Odisha"
+14,Kalinga Institute of Industrial Technology - [KIIT],KIIT School of Law - [KSOL],"Bhubaneswar, Odisha"
+14,Kalinga Institute of Industrial Technology - [KIIT],KIIT School of Mechanical Engineering,"Bhubaneswar, Odisha"
+14,Kalinga Institute of Industrial Technology - [KIIT],KIIT School of Management - [KSOM],"Bhubaneswar, Odisha"
+14,Kalinga Institute of Industrial Technology - [KIIT],KIIT School of Rural Management - [KSRM],"Bhubaneswar, Odisha"
+14,Kalinga Institute of Industrial Technology - [KIIT],KIIT School of Computer Application - [KSCA],"Bhubaneswar, Odisha"
+14,Kalinga Institute of Industrial Technology - [KIIT],KIIT School of Computer Engineering - [KSCE],"Bhubaneswar, Odisha"
+14,Kalinga Institute of Industrial Technology - [KIIT],KIIT School of Civil Engineering,"Bhubaneswar, Odisha"
+14,Kalinga Institute of Industrial Technology - [KIIT],KIIT School of Electrical Engineering,"Bhubaneswar, Odisha"
+14,Kalinga Institute of Industrial Technology - [KIIT],KIIT School of Electronics Engineering,"Bhubaneswar, Odisha"
+14,Kalinga Institute of Industrial Technology - [KIIT],KIIT School of Biotechnology - [KSBT],"Bhubaneswar, Odisha"
+14,Kalinga Institute of Industrial Technology - [KIIT],KIIT School of Chemical Technology,"Bhubaneswar, Odisha"
+15,Siksha 'O' Anusandhan University - [SOA],No data found,No data found
+16,K L University - [KLU],No data found,No data found
+17,Kalasalingam Academy of Research and Education,No data found,No data found
+18,R V College of Engineering - [RVCE],No data found,No data found
+19,Ramaiah Institute of Technology - [RIT],No data found,No data found
+20,International Institute of Information Technology - [IIIT-B],No data found,No data found
+21,BMS College of Engineering - [BMSCE],No data found,No data found
+22,Karunya Institute of Technology and Sciences - [Karunya Deemed University],No data found,No data found
+23,Kumaraguru College of Technology - [KCT],No data found,No data found
+24,Punjab Engineering College University of Technology - [PEC],No data found,No data found
+25,Jaypee Institute of Information Technology University - [JIIT],No data found,No data found
+26,Indian Institute of Information Technology - [IIIT],"Department of Management Studies, Indian Institute of Information Technology","Allahabad, Uttar Pradesh"
+27,Dayalbagh Educational Institute Faculty of Engineering,No data found,No data found
+28,Mepco Schlenk Engineering College,No data found,No data found
+29,Sri Venkateswara University College of Engineering,No data found,No data found
+30,Dhirubhai Ambani Institute of Information and Communication Technology - [DA-IICT],No data found,No data found
+31,Bharati Vidyapeeth Deemed University Pune,"Bharati Vidyapeeth Deemed University, Medical College School of Optometry","Pune, Maharashtra"
+32,Hindustan Institute of Technology and Science - [HITS],No data found,No data found
+33,C. V. Raman Global University,No data found,No data found
+34,Sri Krishna College of Engineering and Technology - [SKCET],No data found,No data found
+35,Kongu Engineering College - [KEC],No data found,No data found
+36,"Vignan's Foundation for Science, Technology, and Research","Vignan University, Department of Management Studies- [DMS]","Guntur, Andhra Pradesh"
+37,B.S. Abdur Rahman Crescent Institute of Science & Technology - [BSAU],"Crescent School of Architecture, B.S.Abdur Rahman University","Chennai, Tamil Nadu"
+38,Bannari Amman Institute of Technology - [BIT],No data found,No data found
+39,Institute of Engineering and Management - [IEM],No data found,No data found
+40,Sona College of Technology,No data found,No data found
+41,Jain University - [JU],"Faculty of Engineering and Technology, Jain University - [FET JU]","Bangalore, Karnataka"
+41,Jain University - [JU],"CMS Business School, Jain University","Bangalore, Karnataka"
+41,Jain University - [JU],"Center for Management Studies, Jain University - [CMSJU]","Bangalore, Karnataka"
+41,Jain University - [JU],"School of Science, Jain University","Bangalore, Karnataka"
+42,Chaitanya Bharathi Institute of Technology - [CBIT],No data found,No data found
+43,New Horizon College of Engineering - [NHCE],No data found,No data found
+44,Veermata Jijabai Technological Institute - [VJTI],No data found,No data found
+45,"JNTUK University College of Engineering, Kakinada",No data found,No data found
+46,"Graphic Era University, School of Engineering and Technology - [GEU]",No data found,No data found
+47,K. J. Somaiya College of Engineering - [KJSCE],No data found,No data found
+48,"GH Raisoni College of Engineering - [GHRCE], Nagpur",No data found,No data found
+49,Mukesh Patel School of Technology Management and Engineering - [MPSTME],No data found,No data found
+50,Sardar Patel Institute of Technology - [SPIT],No data found,No data found
+51,"Faculty of Engineering and Technology, Jain University - [FET JU]",No data found,No data found
+52,Ramdeobaba University - [RBU],No data found,No data found
+53,Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering and Technology - [VNR VJIET],No data found,No data found
+54,National Institute of Food Technology Entrepreneurship and Management - [NIFTEM],No data found,No data found
+55,Sri Jayachamarajendra College of Engineering - [SJCE],No data found,No data found
+56,Jaypee University of Information Technology - [JUIT],No data found,No data found
+57,"University Institute of Engineering, Chandigarh University - [UIE]",No data found,No data found
+58,"School of Engineering and Technology, NCU - [SOET]",No data found,No data found
+59,Lovely Professional University - [LPU],"Mittal School of Business, LPU","Jalandhar, Punjab"
+60,St. Joseph College Of Engineering,No data found,No data found
+61,Saveetha Engineering College - [SEC],No data found,No data found
+62,Sri Sairam Engineering College,No data found,No data found
+63,NMAM Institute of Technology - [NMAMIT],No data found,No data found
+64,"CVR College of Engineering, Ibrahimpatnam",No data found,No data found
+65,Yeshwantrao Chavan College of Engineering - [YCCE],No data found,No data found
+66,"Institute of Technology, Nirma University",No data found,No data found
+67,Sant Longowal Institute of Engineering and Technology - [SLIET],No data found,No data found
+68,Sri Ramakrishna Engineering College - [SREC],No data found,No data found
+69,Chennai Institute of Technology - [CIT],No data found,No data found
+70,Institute of Aeronautical Engineering - [IARE],No data found,No data found
+71,Nitte Meenakshi Institute of Technology - [NMIT],No data found,No data found
+72,Sri Venkateswara College of Engineering - [SVCE],No data found,No data found
+73,Rajalakshmi Engineering College - [REC],No data found,No data found
+74,PES University - [PESU],No data found,No data found
+75,Heritage Institute of Technology - [HIT],No data found,No data found
+76,Sri Krishna College of Technology - [SKCT],No data found,No data found
+77,PSNA College of Engineering and Technology,No data found,No data found
+78,BV Raju Institute of Technology - [BVRIT],No data found,No data found
+79,University of Petroleum and Energy Studies - [UPES],"UPES, School of Law","Dehradun, Uttarakhand"
+79,University of Petroleum and Energy Studies - [UPES],"UPES, School of Business","Dehradun, Uttarakhand"
+79,University of Petroleum and Energy Studies - [UPES],"UPES, School of Engineering","Dehradun, Uttarakhand"
+79,University of Petroleum and Energy Studies - [UPES],"UPES, School of Design Studies - [SoDS]","Dehradun, Uttarakhand"
+80,Vardhaman College of Engineering - [VCE],No data found,No data found
+81,BMS Institute of Technology and Management - [BMSIT],No data found,No data found
+82,B. N. M. Institute of Technology - [BNMIT],No data found,No data found
+83,KLE Technological University,No data found,No data found
+84,RMK Engineering College - [RMKEC],No data found,No data found
+85,MIT World Peace University - [MIT-WPU],MIT-WPU Faculty of Liberal Arts,"Pune, Maharashtra"
+85,MIT World Peace University - [MIT-WPU],MIT-WPU Faculty of Engineering,"Pune, Maharashtra"
+86,Vishwakarma Institute of Information Technology - [VIIT],No data found,No data found
+87,Anurag University,No data found,No data found
+88,Narula Institute of Technology - [NIT Agarpara],No data found,No data found
+89,PES College of Engineering - [PESCE],No data found,No data found
+90,Sree Vidyanikethan Engineering College - [SVEC],No data found,No data found
+91,"Manav Rachna International Institute Of Research And Studies, Faculty of Engineering and Technology - [MRIIRSFET]",No data found,No data found
+92,Vasavi College of Engineering,No data found,No data found
+93,CMR Institute of Technology - [CMRIT],No data found,No data found
+94,G. Pulla Reddy Engineering College - [GPREC],No data found,No data found
+95,Haldia Institute of Technology - [HIT],No data found,No data found
+96,Ramrao Adik Institute of Technology - [RAIT],No data found,No data found
+97,Sri Venkateswara College of Engineering and Technology - [SVCET],No data found,No data found
+98,The National Institute of Engineering - [NIE],No data found,No data found
+99,North Eastern Regional Institute of Science and Technology - [NERIST],No data found,No data found
+100,Velagapudi Ramakrishna Siddhartha Engineering College - [VRSEC],No data found,No data found
+101,Dr. Mahalingam College of Engineering & Technology - [MCET],No data found,No data found
+102,Gokaraju Rangaraju Institute of Engineering and Technology - [GRIET],No data found,No data found
+103,Kakatiya Institute of Technology & Science - [KITSW],No data found,No data found
+104,Shri Vishnu Engineering College for Women - [SVECW],No data found,No data found
+105,Alliance College of Engineering and Design,No data found,No data found
+106,Saveetha School of Engineering - [SSE],No data found,No data found
+107,Pimpri Chinchwad College of Engineering - [PCCOE],No data found,No data found
+108,Dwarkadas J Sanghvi College of Engineering - [DJSCE],No data found,No data found
+109,Fr. Conceicao Rodrigues College of Engineering - [CRCE],No data found,No data found
+110,Dr. M.G.R. Educational and Research Institute,No data found,No data found
+111,Basaveshwar Engineering College - [BEC],No data found,No data found
+112,MKSSS's Cummins College of Engineering for Women,No data found,No data found
+113,Sagi Ramakrishnam Raju Engineering College - [SRKR ],No data found,No data found
+114,Sri Sairam Institute of Technology - [SSIT],No data found,No data found
+115,Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College,No data found,No data found
+116,Thakur College of Engineering and Technology - [TCET],No data found,No data found
+117,Easwari Engineering College - [EEC],No data found,No data found
+118,Gayatri Vidya Parishad College of Engineering,No data found,No data found
+119,Dr. B R Ambedkar Institute of Technology,No data found,No data found
+120,Manipal University - [MUJ],No data found,No data found
+121,The LNM Institute of Information Technology - [LNMIIT],No data found,No data found
+122,SRM Institute of Science and Technology - [SRMIST],SRM Engineering College,"Kanchipuram, Tamil Nadu"
+122,SRM Institute of Science and Technology - [SRMIST],SRM College of Pharmacy,"Kanchipuram, Tamil Nadu"
+122,SRM Institute of Science and Technology - [SRMIST],SRM College of Nursing,"Kanchipuram, Tamil Nadu"
+122,SRM Institute of Science and Technology - [SRMIST],"College of Occupational Therapy, SRM IST","Kanchipuram, Tamil Nadu"
+122,SRM Institute of Science and Technology - [SRMIST],SRM College of Physiotherapy,"Kanchipuram, Tamil Nadu"
+122,SRM Institute of Science and Technology - [SRMIST],SRM School of Education,"Kanchipuram, Tamil Nadu"
+122,SRM Institute of Science and Technology - [SRMIST],"School of Management, SRM IST","Kanchipuram, Tamil Nadu"
+122,SRM Institute of Science and Technology - [SRMIST],SRM Kattankulathur Dental College - [SRMKDC],"Kanchipuram, Tamil Nadu"
+122,SRM Institute of Science and Technology - [SRMIST],SRM Medical College Hospital and Research Centre - [SRM MCHRC],"Kanchipuram, Tamil Nadu"
+122,SRM Institute of Science and Technology - [SRMIST],"School of Law, SRM IST","Kanchipuram, Tamil Nadu"
+123,Christ University,"School of Law, Christ University - [SLCU]","Bangalore, Karnataka"
+123,Christ University,"School of Business and Management, Christ University","Bangalore, Karnataka"
+123,Christ University,"Christ University, Faculty of Engineering","Bangalore, Karnataka"
+124,Manipal Academy of Higher Education - [MAHE],Manipal School of Architecture and Planning - [MSAP],"Manipal, Karnataka"
+124,Manipal Academy of Higher Education - [MAHE],Manipal Institute of Communication - [MIC],"Manipal, Karnataka"
+124,Manipal Academy of Higher Education - [MAHE],Manipal College of Dental Sciences - [MCODS],"Mangalore, Karnataka"
+124,Manipal Academy of Higher Education - [MAHE],Welcomgroup Graduate School of Hotel Administration - [WGSHA],"Manipal, Karnataka"
+124,Manipal Academy of Higher Education - [MAHE],Manipal College of Pharmaceutical Sciences - [MCOPS],"Manipal, Karnataka"
+124,Manipal Academy of Higher Education - [MAHE],Kasturba Medical College - [KMC],"Mangalore, Karnataka"
+124,Manipal Academy of Higher Education - [MAHE],Kasturba Medical College - [KMC],"Manipal, Karnataka"
+124,Manipal Academy of Higher Education - [MAHE],Manipal College of Health Professions - [MCHP],"Manipal, Karnataka"
+124,Manipal Academy of Higher Education - [MAHE],Manipal Institute of Regenerative Medicine - [MIRM],"Bangalore, Karnataka"
+124,Manipal Academy of Higher Education - [MAHE],Manipal Institute of Technology - [MIT],"Manipal, Karnataka"
+124,Manipal Academy of Higher Education - [MAHE],Manipal College of Dental Sciences - [MCODS],"Manipal, Karnataka"
+124,Manipal Academy of Higher Education - [MAHE],International Centre for Applied Sciences [ICAS],"Manipal, Karnataka"
+124,Manipal Academy of Higher Education - [MAHE],Manipal School of Life Sciences- [MSLS],"Manipal, Karnataka"
+125,Centurion University of Technology and Management - [CUTM],No data found,No data found
+126,Sharda University,"Sharda University, School of Dental Sciences - [SDS]","Greater Noida, Uttar Pradesh"
+126,Sharda University,"Sharda University, School of Engineering and Technology - [SET]","Greater Noida, Uttar Pradesh"
+126,Sharda University,"Sharda University, School of Business Studies - [SBS]","Greater Noida, Uttar Pradesh"
+126,Sharda University,"Sharda University, School of Law - [SOL]","Greater Noida, Uttar Pradesh"
+126,Sharda University,"Sharda University, School of Medical Sciences and Research - [SMSR]","Greater Noida, Uttar Pradesh"
+126,Sharda University,"Sharda University, School of Architecture and Planning - [SAP]","Greater Noida, Uttar Pradesh"
+126,Sharda University,"Sharda University, School of Media Film And Entertainment - [SMFE]","Greater Noida, Uttar Pradesh"
+126,Sharda University,"Sharda University, School Humanities and Social Sciences - [SHSS]","Greater Noida, Uttar Pradesh"
+126,Sharda University,"Sharda University, School of Nursing Sciences and Research - [SNSR]","Greater Noida, Uttar Pradesh"
+126,Sharda University,"Sharda University, School of Allied Health Sciences - [SAHS]","Greater Noida, Uttar Pradesh"
+126,Sharda University,"Sharda University, School of Basic Sciences and Research - [SBSR]","Greater Noida, Uttar Pradesh"
+126,Sharda University,"Sharda University, School of Education - [SOE]","Greater Noida, Uttar Pradesh"
+126,Sharda University,"Sharda University, School of Pharmacy - [SOP]","Greater Noida, Uttar Pradesh"
+126,Sharda University,"Sharda University, School of Agricultural Sciences - [SASR]","Greater Noida, Uttar Pradesh"
+127,SVKM's Narsee Monjee Institute of Management Studies - [NMIMS University],NMIMS School of Hospitality Management - [SOHM],"Navi Mumbai, Maharashtra"
+127,SVKM's Narsee Monjee Institute of Management Studies - [NMIMS University],NMIMS School of Law - [SOL],"Navi Mumbai, Maharashtra"
+128,K.R. Mangalam University,No data found,No data found
+129,Galgotias University - [GU],Galgotias University School of Business - [SOB],"Greater Noida, Uttar Pradesh"
+129,Galgotias University - [GU],"Galgotias University, School of Law - [SOL]","Greater Noida, Uttar Pradesh"
+129,Galgotias University - [GU],"Galgotias University, School of Finance & Commerce - [SOFC]","Greater Noida, Uttar Pradesh"
+129,Galgotias University - [GU],"Galgotias University, School of Biosciences and Biomedical Engineering - [SBBE]","Greater Noida, Uttar Pradesh"
+130,Nirma University,No data found,No data found
+131,REVA University,No data found,No data found
+132,Bennett University,No data found,No data found
+133,Chitkara University - [CU],"Chitkara University, Chitkara School of Planning and Architecture - [CSPA]","Patiala, Punjab"
+133,Chitkara University - [CU],"Chitkara University, Chitkara School of Mass Communication - [CSMC]","Patiala, Punjab"
+133,Chitkara University - [CU],Chitkara College of Pharmacy - [CCP],"Patiala, Punjab"
+133,Chitkara University - [CU],Chitkara Institute of Engineering and Technology - [CIET],"Patiala, Punjab"
+133,Chitkara University - [CU],Chitkara College of Education - [CCE],"Patiala, Punjab"
+133,Chitkara University - [CU],"Chitkara University, Chitkara Business School - [CBS]","Patiala, Punjab"
+133,Chitkara University - [CU],Chitkara College of Hotel Management - [CCHM],"Patiala, Punjab"
+134,Singhania University,No data found,No data found
+135,Shiv Nadar University - [SNU],"Shiv Nadar University, School of Engineering - [SOE]","Greater Noida, Uttar Pradesh"
+136,Harcourt Butler Technological University - [HBTU],"Harcourt Butler Technical University, School of Engineering","Kanpur, Uttar Pradesh"
+136,Harcourt Butler Technological University - [HBTU],"Harcourt Butler Technical University, School of Chemical Technology","Kanpur, Uttar Pradesh"
+137,Jaipur National University - [JNU],"Jaipur National University, School of Engineering and Technology - [SOET]","Jaipur, Rajasthan"
+137,Jaipur National University - [JNU],"Jaipur National University, School of Business & Management - [SBM]","Jaipur, Rajasthan"
+137,Jaipur National University - [JNU],"Jaipur National University, School of Pharmaceutical Science - [SPS]","Jaipur, Rajasthan"
+137,Jaipur National University - [JNU],"Jaipur National University, Seedling School of Law & Governance - [SSLG]","Jaipur, Rajasthan"
+138,Integral University,No data found,No data found
+139,Vellore Institute of Technology - [VIT],VIT Business School - [VITBS],"Chennai, Tamil Nadu"
+139,Vellore Institute of Technology - [VIT],VIT Law School - [VITLS],"Chennai, Tamil Nadu"
+140,K L University - [KLH],No data found,No data found
+141,Manav Rachna International Institute of Research and Studies - [MRIIRS],"Manav Rachna International Institute Of Research And Studies, Faculty of Engineering and Technology - [MRIIRSFET]","Faridabad, Haryana"
+141,Manav Rachna International Institute of Research and Studies - [MRIIRS],"Faculty of Management Studies, Manav Rachna International Institute of Research and Studies","Faridabad, Haryana"
+142,Pandit Deendayal Energy University - [PDEU],"School of Management - [SOM], PDEU","Gandhinagar, Gujarat"
+142,Pandit Deendayal Energy University - [PDEU],"Pandit Deendayal Energy University, School of Technology - [PDEU SOT]","Gandhinagar, Gujarat"
+143,Alliance University,No data found,No data found
+144,"Pandit Deendayal Energy University, School of Technology - [PDEU SOT]",No data found,No data found
+145,Amity University,No data found,No data found
+146,VIT Bhopal University,No data found,No data found
+147,Acharya Institute of Technology - [AIT],No data found,No data found
+148,MVJ College of Engineering - [MVJCE],No data found,No data found
+149,DIT University - [DIT],No data found,No data found
+150,Bharath University - Bharath Institute of Higher Education and Research - [BIHER],"Bharath Institute of Higher Education and Research, College of Engineering","Chennai, Tamil Nadu"
+150,Bharath University - Bharath Institute of Higher Education and Research - [BIHER],"Bharath Institute of Higher Education and Research, College of Management","Chennai, Tamil Nadu"
+151,GLA University,Institute of Pharmaceutical Research - GLA University - [IPR],"Mathura, Uttar Pradesh"
+151,GLA University,Institute of Engineering & Technology - GLA University,"Mathura, Uttar Pradesh"
+151,GLA University,Institute of Business Management - GLA University - [GLAIBM],"Mathura, Uttar Pradesh"
+151,GLA University,Institute of Applied Sciences & Humanities - GLA University,"Mathura, Uttar Pradesh"
+152,J.S. University - [JSU],No data found,No data found
+153,Amity University,No data found,No data found
+154,NIMS University,"NIMS University, School of Law","Jaipur, Rajasthan"
+155,"Vels Institute of Science, Technology & Advanced Studies",No data found,No data found
+156,Techno India University,No data found,No data found
+157,Vishwakarma Institute of Technology,No data found,No data found
+158,JECRC University - [JU],No data found,No data found
+159,Birla Institute of Technology and Science - [BITS],No data found,No data found
+160,NIST University,No data found,No data found
+161,Silicon University,No data found,No data found
+162,Centurion University of Technology and Management - [CUTM],No data found,No data found
+163,Sanskriti University - [SU],No data found,No data found
+164,Adamas University,No data found,No data found
+165,Ganpat University - [GUNI],Mehsana Urban Institute of Sciences - [MUIS],"Mehsana, Gujarat"
+165,Ganpat University - [GUNI],"Ganpat University, Department of Education","Mehsana, Gujarat"
+165,Ganpat University - [GUNI],UV Patel College of Engineering - [UVPCE],"Mehsana, Gujarat"
+165,Ganpat University - [GUNI],V. M. Patel Institute of Management - [VMPIM],"Mehsana, Gujarat"
+165,Ganpat University - [GUNI],Ganpat University Institute of Computer Technology - [ICT],"Mehsana, Gujarat"
+166,CEPT University,No data found,No data found
+167,Birla Institute of Technology and Science - [BITS],No data found,No data found
+168,Mahatma Gandhi Institute of Technology - [MGIT],No data found,No data found
+169,Prasad V. Potluri Siddhartha Institute of Technology - [PVPSIT],No data found,No data found
+170,RKDF University,No data found,No data found
+171,SunRise University - [SRU],No data found,No data found
+172,Uttaranchal University,No data found,No data found
+173,OPJS University,No data found,No data found
+174,"PDM University, Bahadurgarh",PDM Dental College and Research Institute,"Bahadurgarh, Haryana"
+174,"PDM University, Bahadurgarh","Faculty of Pharmaceutical Sciences, PDM University","Bahadurgarh, Haryana"
+174,"PDM University, Bahadurgarh",PDM Faculty of Engineering and Technology,"Bahadurgarh, Haryana"
+175,Centurion University of Technology and Management - [CUTM],No data found,No data found
+176,RKDF University,No data found,No data found
+177,MLR Institute of Technology - [MLRIT],No data found,No data found
+178,BML Munjal University - [BMU],"BML Munjal University, School of Engineering And Technology - [SOET]","Gurgaon, Haryana"
+178,BML Munjal University - [BMU],"BML Munjal University, School of Management","Gurgaon, Haryana"
+178,BML Munjal University - [BMU],"BML Munjal University, School of Law","Gurgaon, Haryana"
+179,Shoolini University,"Faculty of Management Sciences and Liberal Arts, Shoolini University","Solan, Himachal Pradesh"
+179,Shoolini University,"Faculty of Engineering and Technology, Shoolini University","Solan, Himachal Pradesh"
+179,Shoolini University,"Faculty of Applied Sciences and Biotechnology, Shoolini University","Solan, Himachal Pradesh"
+179,Shoolini University,"Faculty of Basic Sciences, Shoolini University","Solan, Himachal Pradesh"
+179,Shoolini University,"Faculty of Pharmaceutical Sciences, Shoolini University","Solan, Himachal Pradesh"
+179,Shoolini University,"Faculty of Legal Sciences, Shoolini University","Solan, Himachal Pradesh"
+180,Banasthali Vidyapith,Women's Institute for Studies in Development Oriented Management - [WISDOM],"Jaipur, Rajasthan"
+181,Amity University,No data found,No data found
+182,CMR University - [CMRU],No data found,No data found
+183,Bangalore Institute of Technology - [BIT],No data found,No data found
+184,Poornima University - [PU],No data found,No data found
+185,Sikkim Manipal University - [SMU],No data found,No data found
+186,Monad University,"School of Engineering & Technology, Monad University - [SET]","Hapur, Uttar Pradesh"
+186,Monad University,"Monad University, School of Management and Business Studies - [SMBS]","Hapur, Uttar Pradesh"
+186,Monad University,"School of Agriculture and Applied Science, Monad University","Hapur, Uttar Pradesh"
+186,Monad University,"Monad University, School of Law","Hapur, Uttar Pradesh"
+187,Graphic Era University - [GEU],"Graphic Era University, School of Engineering and Technology - [GEU]","Dehradun, Uttarakhand"
+187,Graphic Era University - [GEU],"Graphic Era University, School of Management - [SOM]","Dehradun, Uttarakhand"
+188,Chandigarh Group of Colleges - [CGC] Landran,No data found,No data found
+189,Mody University,"Mody University, School of Liberal Arts and Science - [SLAS]","Sikar, Rajasthan"
+189,Mody University,"Mody University, School of Management Studies - [SMS]","Sikar, Rajasthan"
+189,Mody University,"Mody University, School of Architecture & Town Planning-[SATP]","Sikar, Rajasthan"
+189,Mody University,"Mody University, School of Engineering And Technology -[SOET]","Sikar, Rajasthan"
+189,Mody University,"Mody University, College of Fashion Design And Merchandising -[CFDM]","Sikar, Rajasthan"
+189,Mody University,"Mody University, School of Legal Studies-[SLS]","Sikar, Rajasthan"
+190,Brainware University,No data found,No data found
+191,Institute Technology & Management - [ITM],No data found,No data found
+192,Sandip University,No data found,No data found
+193,Malla Reddy Engineering College - [MREC],No data found,No data found
+194,Amity University,No data found,No data found
+195,Shobhit University,"Shobhit University, School of Business Studies","Meerut, Uttar Pradesh"
+195,Shobhit University,"Shobhit University, School of Law and Constitutional Studies","Meerut, Uttar Pradesh"
+195,Shobhit University,"Shobhit University, School of Biological Engineering and Sciences","Meerut, Uttar Pradesh"
+196,Sri Sri University - [SSU],No data found,No data found
+197,Garden City University - [GCU],No data found,No data found
+198,Madras Institute of Technology- [MIT],No data found,No data found
+199,Malla Reddy College of Engineering - [MRCE],No data found,No data found
+200,Indus University,No data found,No data found
+201,Academy of Maritime Education and Training University - [AMET],AMET Business School,"Chennai, Tamil Nadu"
+202,IFTM University,"School of Pharmaceutical Sciences, IFTM University - [SPS]","Moradabad, Uttar Pradesh"
+202,IFTM University,"School of Engineering And Technology, IFTM University - [SET]","Moradabad, Uttar Pradesh"
+202,IFTM University,"School of Science, IFTM University - [SOS]","Moradabad, Uttar Pradesh"
+203,Marwadi University - [MU],No data found,No data found
+204,Glocal University,Glocal School of Science & Technology - [GSOT],"Saharanpur, Uttar Pradesh"
+204,Glocal University,Glocal law School - [GLS],"Saharanpur, Uttar Pradesh"
+204,Glocal University,Glocal School of Business and Commerce - [GSBC],"Saharanpur, Uttar Pradesh"
+204,Glocal University,"Glocal Medical College, Super Specialty Hospital & Research Center","Saharanpur, Uttar Pradesh"
+205,Indraprastha Institute of Technology and Management - [IITM],No data found,No data found
+206,SAGE University,No data found,No data found
+207,YBN University - [YBN],No data found,No data found
+208,RIMT University,"RIMT University, School of Education - [SOE]","Gobindgarh, Punjab"
+208,RIMT University,"RIMT University, School of Legal Studies - [SLS]","Gobindgarh, Punjab"
+208,RIMT University,"RIMT University, School of Health Sciences - [SPMS]","Gobindgarh, Punjab"
+208,RIMT University,"RIMT University, School of Computer Application - [SCA]","Gobindgarh, Punjab"
+208,RIMT University,"RIMT University, School of Agricultural Sciences & Technology - [SAST]","Gobindgarh, Punjab"
+208,RIMT University,"RIMT University, School of Basic & Applied Sciences - [SBAS]","Gobindgarh, Punjab"
+208,RIMT University,"RIMT University, School of Hotel Management and Catering Technology - [SHMCT]","Gobindgarh, Punjab"
+208,RIMT University,"RIMT University, School of Management Studies & Commerce","Gobindgarh, Punjab"
+208,RIMT University,"RIMT University, School of Engineering - [SOE]","Gobindgarh, Punjab"
+209,AMC Engineering College - [AMC],No data found,No data found
+210,Aditya Engineering College - [AEC],No data found,No data found
+211,Maharaja Agrasen Institute of Technology - [MAIT],No data found,No data found
+212,Maharaja Surajmal Institute of Technology - [MSIT],No data found,No data found
+213,Panimalar Engineering College,No data found,No data found
+214,MATS University,No data found,No data found
+215,Suresh Gyan Vihar University - [SGVU],"Suresh Gyan Vihar University, International School of Business Management - [ISBM]","Jaipur, Rajasthan"
+216,Ponnaiyah Ramajayam Institute of Science and Technology University - [PRIST University],No data found,No data found
+217,Invertis University,No data found,No data found
+218,Acropolis Institute of Technology & Research - [AITR],No data found,No data found
+219,Quantum University,No data found,No data found
+220,SAGE University,Sagar Institute of Research & Technology - [SIRT],"Indore, Madhya Pradesh"
+221,Model Institute of Engineering and Technology - [MIET],No data found,No data found
+222,RVR and JC College of Engineering,No data found,No data found
+223,Rabindranath Tagore University - [RNTU],No data found,No data found
+224,Sister Nivedita University - [SNU],No data found,No data found
+225,CMJ University,No data found,No data found
+226,Mangalayatan University - [MU],"Manglayatan University, Department of Visual and Performing Arts - [DVPA]","Aligarh, Uttar Pradesh"
+226,Mangalayatan University - [MU],"Institute of Legal Studies & Research, Mangalayatan University - [ILSR]","Aligarh, Uttar Pradesh"
+226,Mangalayatan University - [MU],"Mangalayatan University, Institute of Engineering and Technology - [IET]","Aligarh, Uttar Pradesh"
+226,Mangalayatan University - [MU],"Mangalayatan University, Institute of Business Management - [IBM]","Aligarh, Uttar Pradesh"
+226,Mangalayatan University - [MU],"Mangalayatan University, Institute of Applied Sciences - [IAS]","Aligarh, Uttar Pradesh"
+227,Navrachana University - [NUV],No data found,No data found
+228,Amity University,No data found,No data found
+229,GLS University,"Faculty of Commerce ,GLS University","Ahmedabad, Gujarat"
+229,GLS University,"GLS University, GLS Institute of Design - [GLSID]","Ahmedabad, Gujarat"
+230,Karnavati University - [KU],No data found,No data found
+231,Noida Institute of Engineering and Technology - [NIET],No data found,No data found
+232,ABES Engineering College,ABES Business School,"Ghaziabad, Uttar Pradesh"
+233,Asansol Engineering College - [AEC],No data found,No data found
+234,Bharati Vidyapeeth's College of Engineering - [BVCOE],No data found,No data found
+235,Gudlavalleru Engineering College - [GEC],No data found,No data found
+236,Jaypee University of Engineering and Technology - [JUET],No data found,No data found
+237,Sri Venkateswara College of Engineering - [SVCE],No data found,No data found
+238,Thadomal Shahani Engineering College - [TSEC],No data found,No data found
+239,Velammal Engineering College - [VEC],No data found,No data found
+240,Oriental University - [OU],No data found,No data found
+241,University of Science and Technology - [USTM],No data found,No data found
+242,Guru Kashi University,No data found,No data found
+243,Noida International University - [NIU],No data found,No data found
+244,Central Institute of Technology - [CIT],No data found,No data found
+245,Vidyalankar Institute of Technology - [VIT],No data found,No data found
+246,Madhav University - [MU],No data found,No data found
+247,Graphic Era Hill University - [GEHU],"Graphic Era Hill University Dehradun Campus, School of Engineering and Technology","Dehradun, Uttarakhand"
+247,Graphic Era Hill University - [GEHU],"Graphic Era Hill University Dehradun Campus, School of Law","Dehradun, Uttarakhand"
+247,Graphic Era Hill University - [GEHU],"Graphic Era Hill University Dehradun Campus, School of Management","Dehradun, Uttarakhand"
+248,University of Engineering and Management - [UEM],No data found,No data found
+249,Mangalayatan University,No data found,No data found
+250,Assam down town University - [ADTU],No data found,No data found
+251,Amity University,No data found,No data found
+252,GSFC University,No data found,No data found
+253,Federal Institute of Science and Technology - [FISAT],No data found,No data found
+254,Galgotias College of Engineering and Technology - [GCET],No data found,No data found
+255,Global Academy of Technology - [GAT],No data found,No data found
+256,HKBK Group of Institutions,No data found,No data found
+257,Sri Vasavi Engineering College - [SVEC],No data found,No data found
+258,Uka Tarsadia University,"Bhulabhai Vanmalibhai Patel Institute Of Commerce, Uka Tarsadia University","Bardoli, Gujarat"
+258,Uka Tarsadia University,"Chhotubhai Gopalbhai Patel Institute of Technology, Uka Tarsadia University - [CGPIT]","Bardoli, Gujarat"
+258,Uka Tarsadia University,"C. G. Bhakta Institute of Biotechnology, Uka Tarsadia University - [CGBIBT]","Bardoli, Gujarat"
+258,Uka Tarsadia University,"Raman Bhakta School of Architecture, Uka Tarsadia University - [RBSA]","Bardoli, Gujarat"
+258,Uka Tarsadia University,"Babu Madhav Institute of Information Technology, Uka Tarsadia University - [BMIIT]","Bardoli, Gujarat"
+258,Uka Tarsadia University,"Godavariba School of Interior Design, Uka Tarsadia University -[GSID]","Bardoli, Gujarat"
+258,Uka Tarsadia University,"Maliba Pharmacy College, Uka Tarsadia University - [MPC]","Bardoli, Gujarat"
+258,Uka Tarsadia University,"Jaymin School Of Fashion Design & Technology, Uka Tarsadia University - [JFDT]","Bardoli, Gujarat"
+258,Uka Tarsadia University,"Shrimad Rajchandra College of Physiotherapy, Uka Tarsadia University - [SRCP]","Bardoli, Gujarat"
+258,Uka Tarsadia University,"Bhulabhai Vanmalibhai Patel Institute Of Computer Science, Uka Tarsadia University","Bardoli, Gujarat"
+258,Uka Tarsadia University,"Bhulabhai Vanmalibhai Patel Institute Of Management, Uka Tarsadia University","Bardoli, Gujarat"
+259,AKS University - [AKSU],No data found,No data found
+260,ITM University,"ITM University, School of Management","Gwalior, Madhya Pradesh"
+260,ITM University,"ITM University, School of Law","Gwalior, Madhya Pradesh"
+260,ITM University,"School of Engineering and Technology, ITM University","Gwalior, Madhya Pradesh"
+260,ITM University,"ITM University, School of Nursing Sciences","Gwalior, Madhya Pradesh"
+260,ITM University,"ITM University, School of Agriculture","Gwalior, Madhya Pradesh"
+261,Jagannath University,No data found,No data found
+262,Babu Banarasi Das University - [BBDU],"Babu Banarasi Das University, School of Engineering - [SOE]","Lucknow, Uttar Pradesh"
+262,Babu Banarasi Das University - [BBDU],"Babu Banarasi Das University, School of Management - [SOM]","Lucknow, Uttar Pradesh"
+262,Babu Banarasi Das University - [BBDU],"Babu Banarasi Das University, School of Computer Applications - [SCA]","Lucknow, Uttar Pradesh"
+262,Babu Banarasi Das University - [BBDU],Babu Banarasi Das College of Dental Sciences - [BBDCODS],"Lucknow, Uttar Pradesh"
+262,Babu Banarasi Das University - [BBDU],"Babu Banarasi Das University, School of Hotel Management - [SHM]","Lucknow, Uttar Pradesh"
+262,Babu Banarasi Das University - [BBDU],"School of Business Management, Babu Banarasi Das University - [SBM]","Lucknow, Uttar Pradesh"
+262,Babu Banarasi Das University - [BBDU],"Babu Banarasi Das University, School Of Legal Studies - [SLS]","Lucknow, Uttar Pradesh"
+263,JIS College of Engineering - [JISCE],No data found,No data found
+264,Rayat Bahra University,No data found,No data found
+265,Amity University,No data found,No data found
+266,IILM University,No data found,No data found
+267,Cambridge Institute of Technology - [CiTech],No data found,No data found
+268,RC Patel Institute of Technology - [RCPIT],No data found,No data found
+269,St. Francis Institute of Technology - [SFIT],No data found,No data found
+270,ICFAI University,No data found,No data found
+271,Atharva College of Engineering,No data found,No data found
+272,Don Bosco Institute of Technology - [DBIT],No data found,No data found
+273,GNIOT Group of Institutions - [GNIOT],No data found,No data found
+274,Jeppiaar Engineering College,No data found,No data found
+275,Karpagam College of Engineering - [KCE],No data found,No data found
+276,KIET Group of Institutions - [KIET],No data found,No data found
+277,PES College of Engineering - [PESCOE],No data found,No data found
+278,Raghu Engineering College - [REC],No data found,No data found
+279,Symbiosis Institute of Technology - [SIT],No data found,No data found
+280,Terna Engineering College Navi Mumbai,No data found,No data found
+281,Vivekanand Education Society Institute of Technology - [VESIT],No data found,No data found
+282,Sreenidhi Institute of Science and Technology - [SNIST],No data found,No data found
+283,Paavai Engineering College (Autonomous),No data found,No data found
+284,Assam Don Bosco University - [ADBU],No data found,No data found
+285,RK University - [RKU],"RK University, School of Engineering","Rajkot, Gujarat"
+285,RK University - [RKU],"RK University, School of Management","Rajkot, Gujarat"
+285,RK University - [RKU],"R. K. University, School of Pharmacy","Rajkot, Gujarat"
+286,Baddi University of Emerging Sciences and Technologies - [BUEST],No data found,No data found
+287,Sai Nath University,No data found,No data found
+288,GITAM,No data found,No data found
+289,Yenepoya University,No data found,No data found
+290,DAV University,No data found,No data found
+291,Pacific University,No data found,No data found
+292,ICFAI University,No data found,No data found
+293,KCG College of Technology,No data found,No data found
+294,Silicon Institute of Technology - [SIT],No data found,No data found
+295,Birla Institute of Technology - [BIT],No data found,No data found
+296,Birla Global University - [BGU],No data found,No data found
+297,GITAM,No data found,No data found
+298,Medi-Caps University,No data found,No data found
+299,GNA University,"Faculty of Engineering and Technology, GNA University","Jalandhar, Punjab"
+300,Mahindra University,No data found,No data found
+301,The Neotia University - [TNU],No data found,No data found
+302,Starex University,No data found,No data found
+303,Institute of Engineering and Science - [IES],No data found,No data found
+304,GIFT Autonomous,No data found,No data found
+305,Parul University,No data found,No data found
+306,Dr. C.V. Raman University - [CVRU],No data found,No data found
+307,Jigyasa University (Formerly Himgiri Zee University),No data found,No data found
+308,Jagran Lakecity University - [JLU],No data found,No data found
+309,ACS College of Engineering - [ACSCE],No data found,No data found
+310,Adhiyamaan College of Engineering,No data found,No data found
+311,Ajay Kumar Garg Engineering College - [AKGEC],No data found,No data found
+312,Atria Institute of Technology,Atria School of Management & Entrepreneurship,"Bangalore, Karnataka"
+313,Bhubaneswar Engineering College - [BEC],No data found,No data found
+314,College of Engineering Bhubaneswar - [COEB],No data found,No data found
+315,Guru Tegh Bahadur Institute of Technology - [GTBIT],No data found,No data found
+316,Krishna Engineering College - [KEC],No data found,No data found
+317,Meerut Institute of Engineering and Technology - [MIET],No data found,No data found
+318,RNS Institute of Technology - [RNSIT],No data found,No data found
+319,Raj Kumar Goel Institute of Technology - [RKGIT],No data found,No data found
+320,Rajeev Gandhi Memorial College of Engineering and Technology Nandyal - [RGMCET],No data found,No data found
+321,Rizvi College of Engineering - [RCOE],No data found,No data found
+322,S.A. Engineering College,No data found,No data found
+323,Sir M Visvesvaraya Institute of Technology - [Sir MVIT],No data found,No data found
+324,St Martin's Engineering College - [SMEC],No data found,No data found
+325,"Swami Keshvanand Institute of Technology, Management and Gramothan - [SKIT]",No data found,No data found
+326,Arka Jain University,No data found,No data found
+327,Maharishi Markandeshwar - [MMU],No data found,No data found
+328,Nitte University - [NITTE],Nitte Institute of Speech and Hearing - [NISH],"Mangalore, Karnataka"
+328,Nitte University - [NITTE],Nitte Institute of Communication - [NICO],"Mangalore, Karnataka"
+328,Nitte University - [NITTE],Nitte Institute of Architecture - [NIA],"Mangalore, Karnataka"
+329,MIT Academy of Engineering - [MITAOE],No data found,No data found
+330,Vivekananda Global University - [VGU],No data found,No data found
+331,Shri Ramswaroop Memorial University - [SRMU],No data found,No data found
+332,Amity University,No data found,No data found
+333,Chandigarh Group of Colleges - [CGC] Jhanjeri,No data found,No data found
+334,PSG Institute of Technology and Applied Research - [PSG iTech],No data found,No data found
+335,XIM University,No data found,No data found
+336,Swami Vivekanand University,No data found,No data found
+337,Mahaveer Institute of Engineering & Technology - [MIET],No data found,No data found
+338,Anant National University - [AnantU],No data found,No data found
+339,Atmiya University,No data found,No data found
+340,Acropolis Group of Institutions,No data found,No data found
+341,Echelon Institute of Technology,No data found,No data found
+342,AISSMS College of Engineering - [AISSMSCOE],No data found,No data found
+343,Amal Jyothi College of Engineering - [AJCE],No data found,No data found
+344,Bengal Institute of Technology - [BIT],No data found,No data found
+345,Bhagwan Parshuram Institute of Technology - [BPIT],No data found,No data found
+346,Bhilai Institute of Technology - [BIT],No data found,No data found
+347,Canara Engineering College - [CEC],No data found,No data found
+348,DKTE Society's Textile and Engineering Institute - [DKTE],No data found,No data found
+349,East West Institute of Technology - [EWIT],No data found,No data found
+350,GS Mandal's Marathwada Institute of Technology - [MIT],No data found,No data found
+351,Hindustan College of Engineering - [HCE],No data found,No data found
+352,IMS Engineering College - [IMSEC],No data found,No data found
+353,Jayawantrao Sawant College of Engineering- [JSCOE],No data found,No data found
+354,Jerusalem College of Engineering - [JCE],No data found,No data found
+355,Keshav Memorial Institute of Technology - [KMIT],No data found,No data found
+356,MIT-WPU Faculty of Engineering,No data found,No data found
+357,Maharashtra Institute of Technology - [MIT],No data found,No data found
+358,Mahendra Engineering College,No data found,No data found
+359,Malnad College of Engineering - [MCE],No data found,No data found
+360,Marian Engineering College - [MEC],No data found,No data found
+361,Dr. Akhilesh Das Gupta Institute of Technology & Management - [ADGITM],No data found,No data found
+362,Pillai College of Engineering - [PCE] Navi Mumbai,No data found,No data found
+363,Poornima College of Engineering,No data found,No data found
+364,Pune Institute of Computer Technology- [PICT],No data found,No data found
+365,SNS College of Engineering - [SNSCE],No data found,No data found
+366,Saintgits College of Engineering,No data found,No data found
+367,Saranathan College of Engineering - [SCE],No data found,No data found
+368,Sardar Vallabhbhai Patel Institute of Technology - [SVIT] Vasad,No data found,No data found
+369,Sethu Institute of Technology,No data found,No data found
+370,Siliguri Institute of Technology - [SIT],No data found,No data found
+371,Trichy Engineering College - [TEC],No data found,No data found
+372,JSS Academy of Technical Education - [JSSATE],No data found,No data found
+373,Vaagdevi College of Engineering - [VCOE],No data found,No data found
+374,Jharkhand Rai University - [JRU],No data found,No data found
+375,Shridhar University,"Shridhar University, School of Engineering And Technology","Pilani, Rajasthan"
+375,Shridhar University,"Shridhar University, School of Business Studies","Pilani, Rajasthan"
+376,University of Engineering and Management - [UEM],No data found,No data found
+377,Amrita Vishwa Vidyapeetham,Amrita School of Communication - [ASCOM],"Coimbatore, Tamil Nadu"
+377,Amrita Vishwa Vidyapeetham,Amrita School of Engineering - [ASE],"Coimbatore, Tamil Nadu"
+377,Amrita Vishwa Vidyapeetham,Amrita School of Business - [ASB],"Coimbatore, Tamil Nadu"
+377,Amrita Vishwa Vidyapeetham,Amrita School of Arts and Sciences - [ASAS],"Coimbatore, Tamil Nadu"
+378,International Institute of Information Technology - [I²IT],No data found,No data found
+379,CMR Engineering College - [CMREC],No data found,No data found
+380,Lingaya's Vidyapeeth,No data found,No data found
+381,Matrusri Engineering College,No data found,No data found
+382,Vemana Institute of Technology,No data found,No data found
+383,SRM University Delhi NCR,No data found,No data found
+384,SRM University Sikkim,No data found,No data found
+385,The Northcap University - [NCU],"NCU, School of Management and Liberal Studies","Gurgaon, Haryana"
+385,The Northcap University - [NCU],"NCU, School of Law","Gurgaon, Haryana"
+385,The Northcap University - [NCU],"School of Engineering and Technology, NCU - [SOET]","Gurgaon, Haryana"
+386,LNCT University - [LNCTU],No data found,No data found
+387,Jaipur Engineering College and Research Centre,No data found,No data found
+388,Avantika University,No data found,No data found
+389,Dayananda Sagar University - [DSU],No data found,No data found
+390,C. U. Shah University,No data found,No data found
+391,Techno Main Salt Lake,No data found,No data found
+392,P.P. Savani University,No data found,No data found
+393,VIT University - [VIT- AP],VIT-AP School of Business - [VSB],"Guntur, Andhra Pradesh"
+393,VIT University - [VIT- AP],VIT-AP School of Law - [VSL],"Guntur, Andhra Pradesh"
+394,Usha Martin University - [UMU],No data found,No data found
+395,Sangai International University - [SIU],No data found,No data found
+396,Pranveer Singh Institute of Technology - [PSIT],No data found,No data found
+397,Rama University,"Rama University, Faculty of Medical Sciences","Kanpur, Uttar Pradesh"
+397,Rama University,"Rama University, Faculty Of Dental Sciences","Kanpur, Uttar Pradesh"
+397,Rama University,Rama Institute of Business Studies - [RIBS],"Kanpur, Uttar Pradesh"
+397,Rama University,"Rama University, Faculty of Engineering & Technology","Kanpur, Uttar Pradesh"
+397,Rama University,"Rama University, Faculty of Juridical Sciences (Law)","Kanpur, Uttar Pradesh"
+397,Rama University,"Rama University, Faculty Of Commerce And Management","Kanpur, Uttar Pradesh"
+398,Birla Institute of Technology - [BIT],No data found,No data found
+399,Institute of Advanced Studies in Education - [IASE University],No data found,No data found
+400,Jayoti Vidyapeeth Women's University - [JVWU],No data found,No data found
+401,Anurag College of Engineering - [ACE],No data found,No data found
+402,Agni College of Technology,No data found,No data found
+403,Bengal College of Engineering and Technology - [BCET],No data found,No data found
+404,Chandigarh Engineering College - [CEC] Landran,No data found,No data found
+405,Delhi Technical Campus - [DTC],No data found,No data found
+406,Dr. B.C. Roy Engineering College - [BCREC],No data found,No data found
+407,Erode Sengunthar Engineering College,No data found,No data found
+408,Geethanjali College of Engineering and Technology - [GCET] Keesara,No data found,No data found
+409,IILM University,No data found,No data found
+410,Inderprastha Engineering College - [IPEC],No data found,No data found
+411,Kanpur Institute of Technology - [KIT],No data found,No data found
+412,Kashi Institute of Technology - [KIT],No data found,No data found
+413,Lakshmi Narain College of Technology - [LNCT],No data found,No data found
+414,Meenakshi Sundararajan Engineering College - [MSEC],No data found,No data found
+415,Nandha Engineering College - [NEC],No data found,No data found
+416,Pragati Engineering College,No data found,No data found
+417,Prathyusha Engineering College - [PEC],No data found,No data found
+418,RCC Institute of Information Technology - [RCCIIT],No data found,No data found
+419,RMD Engineering College,No data found,No data found
+420,Sambhram Institute of Technology - [SAIT],No data found,No data found
+421,Sphoorthy Engineering College - [SPHN],No data found,No data found
+422,Sri Eshwar College of Engineering - [SECE],No data found,No data found
+423,SJB Institute of Technology - [SJBIT],No data found,No data found
+424,The Oxford College of Engineering,No data found,No data found
+425,Bhilai Institute of Technology - [BITR],No data found,No data found
+426,Jaipur Engineering College - [JEC],No data found,No data found
+427,Vidyavardhaka College of Engineering - [VVCE],No data found,No data found
+428,Vidya Jyothi Institute of Technology - [VJIT],No data found,No data found
+429,GITAM,No data found,No data found
+430,Modern Vidya Niketan - [MVN University],No data found,No data found
+431,Arni University,No data found,No data found
+432,Bahra University - [BU],No data found,No data found
+433,Amrita Vishwa Vidyapeetham Bengaluru Campus,Amrita School of Business - [ASB],"Bangalore, Karnataka"
+433,Amrita Vishwa Vidyapeetham Bengaluru Campus,Amrita School of Engineering - [ASE],"Bangalore, Karnataka"
+434,Sangam University - [SU],No data found,No data found
+435,Periyar Maniammai Institute of Science and Technology - [PMIST],No data found,No data found
+436,Shri Venkateshwara University - [SVU],No data found,No data found
+437,St Joseph College of Engineering,No data found,No data found
+438,Lakshmi Narain College of Technology - [LNCT],No data found,No data found
+439,GMR Institute of Technology - [GMRIT],No data found,No data found
+440,Panimalar Institute of Technology-[PIT],No data found,No data found
+441,Muthayammal Engineering College - [MEC],No data found,No data found
+442,Technocrats Institute of Technology - [TIT] (Excellence),No data found,No data found
+443,Vel Tech Rangarajan Dr. Sagunthala R and D Institute of Science and Technology - [Vel Tech],"Vel Tech Dr. RR & Dr. SR Technial University, Vel Tech Business School","Chennai, Tamil Nadu"
+444,RNB Global University - [RNBGU],No data found,No data found
+445,Axis Colleges,No data found,No data found
+446,Amity University,No data found,No data found
+447,Netaji Subhas Institute of Technology - [NSIT],No data found,No data found
+448,Excel Engineering College,No data found,No data found
+449,Muthayammal College of Engineering - [MCE],No data found,No data found
+450,Sandip University,No data found,No data found
+451,IIMT University - [IIMTU],No data found,No data found
+452,Bengal College of Engineering - [BCE],No data found,No data found
+453,Apex University - [AU],No data found,No data found
+454,JSS Science and Technology University -[JSSSTU],No data found,No data found
+455,Dev Bhoomi Uttarakhand University - [DBUU],No data found,No data found
+456,Eternal University - [EU],No data found,No data found
+457,Sardar Patel University - [SPUBGT],No data found,No data found
+458,Aalim Muhammed Salegh College of Engineering - [AALIMEC],No data found,No data found
+459,Accurate Institute of Management and Technology - [AIMT],No data found,No data found
+460,Asians Institute of Technology,No data found,No data found
+461,Bhoj Reddy Engineering College for Women,No data found,No data found
+462,Budge Budge Institute of Technology - [BBIT],No data found,No data found
+463,Calcutta Institute of Technology - [CIT],No data found,No data found
+464,Camellia Institute of Technology - [CIT],No data found,No data found
+465,City Engineering College - [CEC],No data found,No data found
+466,Dream Institute of Technology,No data found,No data found
+467,Jaya Engineering College - [JEC],No data found,No data found
+468,KLN College of Engineering - [KLNCE],No data found,No data found
+469,Kamaraj College of Engineering and Technology - [KCET],No data found,No data found
+470,MCKV Institute of Engineering - [MCKVIE],No data found,No data found
+471,Mahakal Institute of Technology - [MIT],No data found,No data found
+472,Mangalam College of Engineering Ettumanoor - [MLM],No data found,No data found
+473,Moradabad Institute of Technology - [MIT],No data found,No data found
+474,Muffakham Jah College of Engineering & Technology - [MJCET],No data found,No data found
+475,Nalla Malla Reddy Engineering College - [NMREC],No data found,No data found
+476,Narasaraopeta Engineering College - [NEC],No data found,No data found
+477,Oriental Institute of Science and Technology - [OIST],No data found,No data found
+478,Sri Sai Ranganathan Engineering College - [SSREC],No data found,No data found
+479,SKR Engineering College,No data found,No data found
+480,Sagar Institute of Science and Technology - [SISTec] - Sagar Group of Institutions,No data found,No data found
+481,Sai Vidya Institute of Technology - [SVIT],No data found,No data found
+482,Sikkim Manipal Institute of Technology - [SMIT],No data found,No data found
+483,Sri Ramakrishna Institute of Technology - [SRIT],No data found,No data found
+484,Sri Shakthi Institute of Engineering and Technology - [SIET],No data found,No data found
+485,Thejus Engineering College,No data found,No data found
+486,Prestige Institute of Management & Research - [PIMR],No data found,No data found
+487,JSPM Narhe Technical Campus - [JSPM NTC] Narhe,No data found,No data found
+488,VSB Engineering College - [VSBEC],No data found,No data found
+489,Vishnu Institute of Technology - [VIT],No data found,No data found
+490,PSR Engineering College,No data found,No data found
+491,Tula's Institute,No data found,No data found
+492,Velalar College of Engineering and Technology -[VCET],No data found,No data found
+493,Bhagwant University,"Bhagwant University, Department of Law","Ajmer, Rajasthan"
+493,Bhagwant University,"Bhagwant University, Department of Engineering & Technology","Ajmer, Rajasthan"
+493,Bhagwant University,"Bhagwant University, Department of Management","Ajmer, Rajasthan"
+494,ICFAI University,No data found,No data found
+495,United Group of Institutions - [UGI],No data found,No data found
+496,Annamacharya Institute of Technology and Sciences,No data found,No data found
+497,Babu Banarasi Das Institute of Technology & Management - [BBDITM],No data found,No data found
+498,JB Institute of Technology - [JBIT],No data found,No data found
+499,Malla Reddy Engineering College for Women - [MRECW],No data found,No data found
+500,St. Peter's Institute of Higher Education and Research - [SPIHER],No data found,No data found

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Basic Layout */
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding-top: 60px; /* Added padding for the header */
+        }
+
+        /* Header Styling */
+        header {
+            width: 100%;
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            border-bottom: 3px solid #004080;
+        }
+
+        header h1 {
+            font-size: 1.8em;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        /* Main Content Styling */
+        .content-wrapper {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #007acc;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #007acc;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.9em;
+        }
+
+        nav a:hover {
+            color: #004080;
+            text-decoration: underline;
+        }
+
+        .container p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        /* Button Styling */
+        .engineering-colleges-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .engineering-colleges-btn:hover {
+            background-color: #005fa3;
+        }
+
+        /* Image Styling */
+        .content-wrapper img {
+            max-width: 65%; /* Ensures the image is responsive */
+            height: auto; /* Maintains aspect ratio */
+            margin-top: 20px; /* Adds space between text and image */
+            border-radius: 8px; /* Optional: rounds the image corners */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                padding: 15px 0;
+            }
+
+            .content-wrapper {
+                margin: 10px;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            nav {
+                display: block;
+                margin-top: 20px;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .engineering-colleges-btn {
+                top: 15px;
+                left: 15px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>College Quest</h1>
+    </header>
+
+    <div class="content-wrapper">
+        <h2>Your Guide To The Perfect Campus</h2>
+        <nav>
+            <a href="/login">Login</a>
+            <a href="/register">Register</a>
+        </nav>
+        <img src="static/college1.jpg" alt="College Image">
+    </div>
+
+    <!-- Engineering Colleges Button placed at top left -->
+    <a href="{{ url_for('engineering_colleges') }}" class="engineering-colleges-btn">Engineering Colleges</a>
+</body>
+</html>

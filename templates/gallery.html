@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Basic Layout */
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding-top: 80px; /* space for fixed header */
+        }
+        
+        /* Header Styling */
+        header {
+            width: 100%;
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            width: 100%;
+            border-bottom: 3px solid #004080;
+        }
+        
+        header h1 {
+            font-size: 1.8em;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        
+        /* Back and Logout Buttons */
+        .back-button,
+        .logout-button {
+            position: absolute;
+            top: 20px;
+            padding: 5px 10px;
+            color: white;
+            text-decoration: none;
+            background-color: #005fa3;
+            border-radius: 5px;
+        }
+        
+        .back-button {
+            left: 20px;
+        }
+        
+        .logout-button {
+            right: 20px;
+        }
+        
+        .back-button a,
+        .logout-button a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        /* Sidebar Navigation */
+        .nav-buttons {
+            position: fixed;
+            top: 76px; /* Ensure it doesn’t overlap the header */
+            left: 0;
+            width: 200px;
+            height: calc(100vh - 80px); /* Prevent the navigation from overlapping the content */
+            background-color: #007acc;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            gap: 10px;
+            overflow-y: auto;
+        }
+        
+        .nav-buttons a {
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            background-color: #005fa3;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .nav-buttons a:hover {
+            background-color: #004080;
+        }
+        
+        /* Section Styling */
+        section {
+            margin-left: 220px; /* Offset for the sidebar */
+            width: calc(100% - 220px); /* Make sure content fits */
+            padding: 20px;
+            text-align: center;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        /* Ranking Table Styling */
+        #gallery table {
+            width: 80%; /* Control the table width */
+            margin: 0 auto; /* Center the table */
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+        
+        #gallery th, #gallery td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+            word-wrap: break-word;
+        }
+        
+        #gallery th {
+            background-color: #007acc;
+            color: white;
+        }
+        
+        #gallery td {
+            background-color: #f9f9f9;
+        }
+        
+        /* Hover effect on table cells */
+        #gallery td:hover {
+            background-color: #e2e2e2 !important; /* Highlight when hovered */
+        }
+        
+        /* Keep the even row background color */
+        #gallery tr:nth-child(even) td {
+            background-color: #f1f1f1;
+        }
+        
+        /* Ensure odd rows also have a different background */
+        #gallery tr:nth-child(odd) td {
+            background-color: #f9f9f9;
+        }
+        
+        /* Center Table */
+        .table-center {
+            margin-left: auto; /* Center table horizontally */
+            margin-right: auto;
+            width: 80%; /* Adjust the width as needed */
+        }
+        
+        /* Image Styling */
+        #gallery td img {
+            width: 100%;  /* Make images fit inside the table cell */
+            height: auto; /* Maintain aspect ratio */
+            max-width: 150px; /* Optional: You can set a max width if needed */
+            display: block;
+            margin: 0 auto;
+        }
+        section#gallery h2 {
+            color: #007acc;
+            font-size: 1.6em;
+            margin-bottom: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-buttons {
+                width: 150px;
+            }
+        
+            header {
+                padding: 15px 0;
+            }
+        
+            section {
+                margin-left: 150px;
+                width: calc(100% - 150px);
+            }
+        
+            #gallery table {
+                font-size: 14px;
+                width: 100%;
+            }
+
+            #gallery td img {
+                max-width: 100px; /* Reduce the size for smaller screens */
+            }
+        }
+    </style>
+    <title>Gallery</title>
+</head>
+<body>
+    <header>
+        <div class="back-button">
+            <a href="{{ url_for('engineering_colleges') }}">Back</a>
+        </div>
+        <h1>{{ college_name }}</h1>
+        <div class="nav-buttons">
+            <a href="{{ url_for('info', college_id=college_id) }}">Information</a>
+            <a href="{{ url_for('course', college_id=college_id) }}">Courses & Fees</a>
+            <a href="{{ url_for('distance', college_id=college_id) }}">Distance Education</a>
+            <a href="{{ url_for('adms', college_id=college_id) }}">Admission</a>
+            <a href="{{ url_for('reviews', college_id=college_id) }}">Reviews</a>
+            <a href="{{ url_for('departments', college_id=college_id) }}">Departments</a>
+            <a href="{{ url_for('cutoff', college_id=college_id) }}">Cutoff</a>
+            <a href="{{ url_for('placement', college_id=college_id) }}">Placement</a>
+            <a href="{{ url_for('ranking', college_id=college_id) }}">Ranking</a>
+            <a href="{{ url_for('gallery', college_id=college_id) }}">Gallery</a>
+            <a href="{{ url_for('scholarship', college_id=college_id) }}">Scholarship</a>
+            <a href="{{ url_for('faculty', college_id=college_id) }}">Faculty</a>
+            <a href="{{ url_for('news', college_id=college_id) }}">News & Articles</a>
+            <a href="{{ url_for('hostel', college_id=college_id) }}">Hostel</a>
+            <a href="{{ url_for('qa', college_id=college_id) }}">Q&A</a>
+        </div>
+        <div class="logout-button">
+            <a href="/logout">Logout</a> 
+        </div>
+    </header>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <table>
+            <tr>
+                {% for image in gallery_info %}
+                <td>
+                    <a href="{{ image.source }}" target="_blank">
+                        <img src="{{ image.source }}" alt="Gallery Image">
+                    </a>
+                </td>
+                {% if loop.index % 4 == 0 and not loop.last %} </tr><tr> {% endif %}
+                {% endfor %}
+            </tr>
+        </table>
+    </section>
+    <script>
+        // Store the scroll position when the page is unloaded
+        window.addEventListener('beforeunload', function () {
+            localStorage.setItem('sidebarScroll', document.querySelector('.nav-buttons').scrollTop);
+        });
+    
+        // Retrieve and set the scroll position when the page loads
+        window.addEventListener('load', function () {
+            const savedScroll = localStorage.getItem('sidebarScroll');
+            if (savedScroll) {
+                document.querySelector('.nav-buttons').scrollTop = savedScroll;
+            }
+        });
+    </script>
+    
+</body>
+</html>

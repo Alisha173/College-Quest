@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Overview</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Basic Layout */
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+        }
+
+        /* Header Styling */
+        header {
+            width: 100%;
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            border-bottom: 3px solid #004080;
+        }
+
+        header h1 {
+            font-size: 1.8em;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        /* Main Section Styling */
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-top: 100px; /* space for fixed header */
+            margin-left: 200px; /* space for sidebar */
+            width: calc(100% - 200px);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            padding: 30px; /* Adds space around the content inside the container */
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .container h1 {
+            color: #007acc;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            text-align: left;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .container h2 {
+            color: #007acc;
+            font-size: 1.6em;
+            margin-bottom: 10px;
+        }
+
+        .container img {
+            display: block; /* Makes the image a block-level element */
+            margin: 20px auto; /* Centers the image and adds space above and below */
+            max-width: 100%; /* Makes the image responsive */
+            height: auto; /* Maintains the aspect ratio */
+        }
+
+        .container ul {
+            list-style-type: disc;
+            text-align: left;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .container .button {
+            display: block;
+            width: 100%;
+            max-width: 250px;
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 20px auto 0 auto; /* Centers the button */
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .container .button:hover {
+            background-color: #005fa3;
+        }
+        .engineering-colleges-btn {
+            position:absolute;
+            top: 20px;
+            left: 20px; /* Positioned at top-left */
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-buttons {
+                width: 150px;
+            }
+
+            header {
+                padding: 15px 0;
+            }
+
+            main {
+                margin-left: 150px;
+                width: calc(100% - 150px);
+            }
+
+            .container {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            .engineering-colleges-btn {
+                top: 15px;
+                left: 15px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Engineering Colleges Button placed at top left -->
+    <a href="{{ url_for('engineering_colleges') }}" class="engineering-colleges-btn">Engineering Colleges</a>
+
+    <!-- User Info and Logout Buttons -->
+    <div style="position: absolute; top: 20px; right: 20px; display: flex; align-items: center; color: white;">
+        <div class="userinfo"><p> Welcome: {{ username }}</p></div>
+        <a href="{{ url_for('logout') }}" class="logout-button">Logout</a>
+    </div>
+
+    <div class="container">
+        <h1>Snapshot</h1>
+        <p>
+            This project harnesses the lightweight yet powerful Flask framework to build a sleek web application. Known for its simplicity, Flask allows the app to perform with agility while handling everything from user interactions to data management. With a clean backend and dynamic interface, it’s designed to ensure smooth operations and a fluid user experience.
+        </p>
+        <img src="static/college.jpg" alt="College Image">
+
+        <h2>Key Features & Capabilities</h2>
+        
+            <p style="text-align: left; margin: auto;">
+                <strong>Smart Routing:</strong> Seamlessly guide users through various app sections with well-structured URL management that ensures every page is just a click away. 
+                <strong>Powerful Backend Engine:</strong> The app efficiently processes and manages user input, performing essential logic tasks while connecting to databases or external services for real-time data delivery. 
+                <strong>Visually Engaging Frontend:</strong> By incorporating Jinja2 templates, the app dynamically renders rich, responsive web pages, blending user requests with server-side logic for interactive, engaging content. 
+                <strong>Efficient Data Handling:</strong> With the help of advanced ORM libraries like SQLAlchemy, the app smoothly manages and retrieves data, creating an optimized structure for storing and accessing information. 
+                <strong>Secure Form Management:</strong> The integration of Flask-WTF ensures robust and secure form handling, validating user input with precision and ease. 
+                <strong>API Connectivity:</strong> This app offers seamless integration with external services, enabling smooth communication through RESTful APIs for both internal and third-party functionality. 
+                <strong>Authentication System:</strong> Equipped with secure login and registration features, the app keeps user data protected, allowing for safe, personalized sessions. 
+                <strong>Error Management:</strong> Error handling is simplified, with custom-designed pages ensuring that users always have a clear, guided experience, even in the event of unexpected disruptions.
+            </p>
+    </div>
+</body>
+</html>

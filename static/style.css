@@ -1,0 +1,276 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic Layout */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    background-image: url("/static/bg.jpg");
+    background-attachment: fixed;
+
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Back and Logout Buttons */
+.back-button,
+.logout-button {
+    position: absolute;
+    top: 20px;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #005fa3;
+    border-radius: 5px;
+}
+
+.back-button {
+    left: 20px;
+}
+
+.logout-button {
+    right: 20px;
+}
+
+.back-button a,
+.logout-button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sidebar Navigation */
+.nav-buttons {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 200px;
+    height: calc(100vh - 80px);
+    background-color: #007acc;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.nav-buttons a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #005fa3;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+    background-color: #004080;
+}
+
+/* Section Styling */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px; /* space for fixed header */
+    margin-left: 200px; /* space for sidebar */
+    width: calc(100% - 200px);
+}
+
+section#information {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+section#information h2 {
+    color: #007acc;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+section#information p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+section#information img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Form Styling for Login and Registration Pages */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 120px; /* Adds space to account for fixed header */
+}
+
+/* Common Form Inputs */
+input, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+/* Submit Button Styles */
+button[type="submit"] {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #005fa3;
+}
+
+/* Success Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 15% auto;
+    text-align: center;
+}
+
+.modal .success-icon {
+    font-size: 50px;
+    color: green;
+}
+
+.modal button {
+    background-color: green;
+}
+
+/* Login Page Specific Styles */
+body.login-page {
+    background-image: url("/static/login-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-page h1 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Registration Page Specific Styles */
+body.registration-page {
+    background-image: url("/static/registration-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.registration-page h1 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Inputs Specific to Login & Registration */
+input[type="text"], input[type="password"] {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"], button[type="submit"] {
+    padding: 12px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+input[type="submit"]:hover, button[type="submit"]:hover {
+    background-color: #005fa3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-buttons {
+        width: 150px;
+    }
+
+    header {
+        padding: 15px 0;
+    }
+
+    main {
+        margin-left: 150px;
+        width: calc(100% - 150px);
+    }
+}

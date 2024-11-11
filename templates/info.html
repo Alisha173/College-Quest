@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Basic Layout */
+        body {
+            display: flex;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            width: 100%;
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            border-bottom: 3px solid #004080;
+        }
+
+        header h1 {
+            font-size: 1.8em;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        /* Back and Logout Buttons */
+        .back-button,
+        .logout-button {
+            position: absolute;
+            top: 20px;
+            padding: 5px 10px;
+            color: white;
+            text-decoration: none;
+            background-color: #005fa3;
+            border-radius: 5px;
+        }
+
+        .back-button {
+            left: 20px;
+        }
+
+        .logout-button {
+            right: 20px;
+        }
+
+        .back-button a,
+        .logout-button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .back-button a:hover,
+        .logout-button a:hover {
+            background-color: #004080;
+        }
+
+        /* Sidebar Navigation */
+        .nav-buttons {
+            position: fixed;
+            top: 76px;
+            left: 0;
+            width: 200px;
+            height: calc(100vh - 76px);
+            background-color: #007acc;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            gap: 10px;
+            overflow-y: auto;
+        }
+
+        .nav-buttons a {
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            background-color: #005fa3;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-buttons a:hover {
+            background-color: #004080;
+        }
+
+        /* Main Content Styling */
+        main {
+            margin-top: 100px; /* space for fixed header */
+            margin-left: 220px; /* space for sidebar */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            width: calc(100% - 220px);
+        }
+
+        section#information {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+
+        section#information h2 {
+            color: #007acc;
+            font-size: 1.6em;
+            margin-bottom: 10px;
+        }
+
+        section#information p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        section#information img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-buttons {
+                width: 150px;
+            }
+
+            main {
+                margin-left: 170px;
+                width: calc(100% - 170px);
+            }
+
+            section#information {
+                max-width: 90%;
+            }
+        }
+    </style>
+    <title>Information</title>
+</head>
+<body>
+    <header>
+        <div class="back-button">
+            <a href="{{ url_for('engineering_colleges') }}">Back</a>
+        </div>
+        <h1>{{ college_name }}</h1>
+        <div class="logout-button">
+            <a href="/logout">Logout</a> 
+        </div>
+    </header>
+
+    <div class="nav-buttons">
+        <a href="{{ url_for('info', college_id=college_id) }}">Information</a>
+        <a href="{{ url_for('course', college_id=college_id) }}">Courses & Fees</a>
+        <a href="{{ url_for('distance', college_id=college_id) }}">Distance Education</a>
+        <a href="{{ url_for('adms', college_id=college_id) }}">Admission</a>
+        <a href="{{ url_for('reviews', college_id=college_id) }}">Reviews</a>
+        <a href="{{ url_for('departments', college_id=college_id) }}">Departments</a>
+        <a href="{{ url_for('cutoff', college_id=college_id) }}">Cutoff</a>
+        <a href="{{ url_for('placement', college_id=college_id) }}">Placement</a>
+        <a href="{{ url_for('ranking', college_id=college_id) }}">Ranking</a>
+        <a href="{{ url_for('gallery', college_id=college_id) }}">Gallery</a>
+        <a href="{{ url_for('scholarship', college_id=college_id) }}">Scholarship</a>
+        <a href="{{ url_for('faculty', college_id=college_id) }}">Faculty</a>
+        <a href="{{ url_for('news', college_id=college_id) }}">News & Articles</a>
+        <a href="{{ url_for('hostel', college_id=college_id) }}">Hostel</a>
+        <a href="{{ url_for('qa', college_id=college_id) }}">Q&A</a>
+    </div>
+
+    <main>
+        <section id="information">
+            <h2>Information</h2>
+            {% for info in college_info.info_data.split("|") %}
+            <p>{{ info.strip() }}</p>
+            {% endfor %}
+            <img src="{{gallery_info[0].source}}" style="display: block; margin: 0 auto;">
+        </section>
+    </main>
+    
+    
+</body>
+</html>

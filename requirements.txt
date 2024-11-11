@@ -1,0 +1,4 @@
+pandas
+flask
+Flask-SqlAlchemy
+selenium

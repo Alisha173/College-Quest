@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Colleges</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+      /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.no-bg {
+    background-image: none !important; /* Remove background image */
+
+}
+
+/* Basic Layout */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4 ;
+    color: #333;
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    background-color: #007acc;
+    color: #007acc;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 3px solid #004080;
+}
+
+header h1 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin: 0;
+    align-self: center;
+    color: white;
+}
+/* Back and Logout Buttons */
+.back-button,
+.logout-button {
+    position: absolute;
+    top: 20px;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #005fa3;
+    border-radius: 5px;
+    cursor: pointer; /* Ensure the cursor changes to pointer on hover */
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.back-button {
+    left: 20px;
+}
+
+.logout-button {
+    right: 20px;
+}
+
+/* Hover Effect */
+.back-button:hover,
+.logout-button:hover {
+    background-color: #004080; /* Darker shade when hovered */
+}
+
+/* Ensure anchor tags inside buttons don't override hover effect */
+.back-button a,
+.logout-button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sidebar Navigation */
+.nav-buttons {
+    position: fixed;
+    top: 76px;
+    left: 0;
+    width: 200px;
+    height: calc(100vh - 80px);
+    background-color: #007acc;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.nav-buttons a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #005fa3;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+    background-color: #004080;
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 100px; /* space for fixed header */
+    margin-left: 200px; /* space for sidebar */
+    width: calc(100% - 200px); /* Remaining space after sidebar */
+    padding: 20px;
+    flex-grow: 1; /* Ensures the main content takes up the remaining space */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Search Form and Table Styling */
+form {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column; /* Change from row to column to align items vertically */
+    justify-content: center; 
+    gap: 10px;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%; /* Ensures the input field is full width */
+    max-width: 100%; /* Prevent overflow */
+    text-align: center;  /* Center the placeholder text */
+    max-width: 600px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 200px;
+
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+/* Table Styling */
+/* Table Styling */
+table {
+    width: 100%;
+    max-width: 100%; /* Ensure the table doesn't overflow */
+    border-collapse: collapse;
+    margin-top: 20px;
+    padding: 0 10px;    /* Reduce padding inside the table */
+    table-layout: fixed; /* Ensures table width does not exceed the page width */
+}
+
+/* Adjust margins and paddings for the main content */
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 100px; /* space for fixed header */
+    margin-left: 200px; /* space for sidebar */
+    width: calc(100% - 200px); /* Remaining space after sidebar */
+    padding: 20px;
+    flex-grow: 1; /* Ensures the main content takes up the remaining space */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    padding-right: 20px;  /* Add padding to the right side to ensure no sticking */
+}
+
+/* Additional fixes for the table */
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007acc;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+tr:hover {
+    background-color: #e1e1e1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-buttons {
+        width: 150px;
+    }
+
+    header {
+        padding: 15px 0;
+    }
+
+    main {
+        margin-left: 150px;
+        width: calc(100% - 150px);
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
+
+    form {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body class="no-bg"><header>
+    <a href="{{ url_for('landing_page') }}" class="back-button">Back</a>
+    <a href="{{ url_for('logout') }}" class="logout-button">Logout</a>
+    <h1>Engineering Colleges</h1>
+</header>
+    <form method="POST">
+        <input type="text" name="search_query" placeholder="Search Colleges">
+        <button type="submit">Search</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Serial No.</th>
+                <th>College Name</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for college in colleges %}
+            <tr>
+                <td>{{ college.serial_no }}</td>
+                <td><a href="{{ url_for('info', college_id=college.serial_no) }}">{{ college.name }}</a></td>
+                <td>{{ college.location }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
